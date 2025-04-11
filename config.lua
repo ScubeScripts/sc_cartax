@@ -16,11 +16,9 @@ Config.Time = 12 --Time between payments || Specified here in minutes
 Config.Char = 'CHAR_MP_MORS_MUTUAL' -- Find other Chars: https://wiki.rage.mp/index.php?title=Notification_Pictures
 Config.Name = 'MORS MUTUAL'
 
-Config.Notify = {
-    {name = "bulletin", enabled = false},
-    {name = "default", enabled = false},
-    {name = "ox_lib", enabled = true},
-}
+Config.Framework = 'QBCore' -- Change to 'QBCore' if using QBCore
+
+Config.Notify = 'standard' -- Use 'sc_notify' or 'standard'
 
 --Bulletin Config
 Config.Delay = 5000 --How long should the notification be displayed || Default 5 seconds

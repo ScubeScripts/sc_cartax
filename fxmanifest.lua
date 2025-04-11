@@ -2,9 +2,9 @@ fx_version 'bodacious'
 game 'gta5'
 lua54 'yes'
 
-name "sc_cartaxes"
+name "sc_cartax"
 author "ScubeScripts"
-version "1.0.2"
+version "1.0.4"
 description "A Simple Script that allows Cartaxes on your Server"
 
 server_scripts {
@@ -18,12 +18,9 @@ client_scripts {
 }
 
 shared_script {
-  '@ox_lib/init.lua',
   'config.lua'
 }
 
 dependencies {
-  'es_extended',
-	'ox_lib',
   'oxmysql'
 }
