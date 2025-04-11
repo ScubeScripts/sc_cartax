@@ -18,14 +18,12 @@ Config.Name = 'MORS MUTUAL'
 
 Config.Framework = 'QBCore' -- Change to 'QBCore' if using QBCore
 
-Config.Notify = 'standard' -- Use 'sc_notify' or 'standard'
+Config.Notify = 'sc_notify' -- Use 'sc_notify' or 'standard'
 
---Bulletin Config
-Config.Delay = 5000 --How long should the notification be displayed || Default 5 seconds
-Config.Position = 'bottomleft' -- "bottomleft", "topleft", "topright", "bottomright", "bottom", "top"
-Config.Progress = true -- true/false
-Config.exitAnim = 'fadeOut'
-Config.Theme = 'default' -- Other Themes: (default, success, info, warning, error)
+--Standard Config
+
+Config.Char = 'CHAR_MP_MORS_MUTUAL' -- Find other Chars: https://wiki.rage.mp/index.php?title=Notification_Pictures
+Config.Name = 'MORS MUTUAL'
 
 Translation = {
     ['de'] = {
