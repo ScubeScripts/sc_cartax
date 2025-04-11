@@ -13,9 +13,6 @@ Config.Price = 30 --How much should it cost
 
 Config.Time = 12 --Time between payments || Specified here in minutes
 
-Config.Char = 'CHAR_MP_MORS_MUTUAL' -- Find other Chars: https://wiki.rage.mp/index.php?title=Notification_Pictures
-Config.Name = 'MORS MUTUAL'
-
 Config.Framework = 'QBCore' -- Change to 'QBCore' if using QBCore
 
 Config.Notify = 'sc_notify' -- Use 'sc_notify' or 'standard'
